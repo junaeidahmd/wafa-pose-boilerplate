@@ -454,7 +454,9 @@ nav.active ~ .main__body {
 /* ================================================== */
 /* SALES TABLE SECTION */
 /* ================================================== */
-
+tbody, td, tfoot, th, thead, tr{
+  padding:1rem !important;
+}
 .sales__table__section .card {
   padding: 24px;
   border-radius: 16px;
