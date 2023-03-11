@@ -1,4 +1,5 @@
 <template>
+
     <div class="main__body">
       <!-- start design here... -->
 
@@ -495,7 +496,6 @@
     <!-- MAIN SECTION END -->
 
     <!-- add user popup -->
-
     <div
       class="add-user__wrapper d-flex align-items-center justify-content-center"
     >
@@ -588,6 +588,7 @@
         </div>
       </div>
     </div>
+
 </template>
 
 <script>

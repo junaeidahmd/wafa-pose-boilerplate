@@ -142,7 +142,6 @@
         <!-- MAIN SECTION END -->
 
         <!-- add user popup -->
-
     <div
       class="add-user__wrapper d-flex align-items-center justify-content-center"
     >

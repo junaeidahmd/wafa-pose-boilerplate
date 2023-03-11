@@ -15,6 +15,7 @@
                 <img class="logo" src="../../../public/img/wafah-pos.svg" alt="logo" />
             </div>
             </div>
+            
             <div class="nav__items-wrapper d-flex justify-content-between">
             <div class="items__left">
                 <ul class="list-unstyled">
