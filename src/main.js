@@ -6,10 +6,12 @@ import Sidebar from './components/parts/Sidebar.vue'
 
 import router from './router/route.js'
 
+
 const app = createApp({})
 
 app.component('tsidebar',Sidebar)
 app.component('theader',Header)
+
 
 app.use(router);
 

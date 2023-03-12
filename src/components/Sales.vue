@@ -588,12 +588,20 @@
         </div>
       </div>
     </div>
-
 </template>
 
 <script>
 export default {
-
+  name:'sales',
+  mounted(){
+    $(document).ready(function () {
+        $('#user_table').DataTable({
+          searching: false,
+          lengthChange: false,
+          responsive: true,
+        });
+      });
+  }
 }
 </script>
 

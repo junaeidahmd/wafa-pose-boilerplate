@@ -392,7 +392,16 @@
 
 <script>
 export default {
-    name:'User'
+    name:'User',
+    mounted(){
+        $(document).ready(function () {
+        $('#user_table').DataTable({
+          searching: false,
+          lengthChange: false,
+          responsive: true,
+        });
+      });
+    }
 }
 </script>
 

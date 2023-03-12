@@ -342,7 +342,19 @@
 
 <script>
 export default {
-    name:'role'
+    name:'role',
+    mounted(){
+      $(document).ready(function () {
+        $('#user_table').DataTable({
+          searching: false,
+          lengthChange: false,
+          responsive: true,
+        });
+      });
+      // ../../public/js/home.js
+
+    },
+    
 }
 </script>
 

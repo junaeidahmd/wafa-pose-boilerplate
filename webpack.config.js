@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename:"main.js",
     publicPath: "/dist/",
-    assetModuleFilename:'images/[hash].[ext][query]'
+    assetModuleFilename:'images/[hash].[ext][query]' 
   },
 
   devServer: {
@@ -37,17 +37,9 @@ module.exports = {
         loader: "vue-loader",
       },
       {
-        test: /\.css$/,
-        use: [
-          "style-loader",
-          "css-loader",
-          {
-            loader: "postcss-loader",
-            options: {
-              plugins: () => [autoprefixer()],
-            },
-          },
-        ],
+        // test: /\.css$/,
+        test: /\.(css)$/,
+        use: ['style-loader','css-loader']
       },
       {
         test:/\.svg/,

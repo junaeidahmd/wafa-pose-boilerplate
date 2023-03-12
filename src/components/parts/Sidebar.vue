@@ -194,9 +194,7 @@
                         >
                         <router-link :to="{name:'role',query:{sort:'asdfafd'}}"
                             class="text-decoration-none d-block py-2 mb-0"
-                            href="role.html"
-                            >Role</router-link
-                        >
+                            href="role.html">Role</router-link>
                         <router-link :to="{name:'sales',query:{sort:'inlasdfasdf'}}"
                             class="text-decoration-none d-block py-2 mb-0"
                             href="sales.html"
@@ -543,5 +541,5 @@ export default {
 </script>
 
 <style>
- 
+
 </style>
