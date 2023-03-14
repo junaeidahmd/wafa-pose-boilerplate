@@ -1,14 +1,8 @@
-// $(document).ready(function () {
-//     $('#example').DataTable(
-
-//     {
-//     searching: false,
-//     lengthChange: false,
-//     responsive: true,
-//     }
-//     );
-//   });
-
 $(document).ready(function () {
-    $('#example').DataTable();
-});
+    $('#table_one, #table_two, #table_three').DataTable({
+      searching: false,
+      lengthChange: false,
+      responsive: true,
+    });
+  });
+
