@@ -14,7 +14,6 @@
           </div>
         </div>
       </section>
-
       <section class="pro-search__section">
         <div class="section__container">
           <div
@@ -342,6 +341,7 @@
 
 <script>
 export default {
+
     name:'role',
     mounted(){
       $(document).ready(function () {
@@ -351,8 +351,6 @@ export default {
           responsive: true,
         });
       });
-      // ../../public/js/home.js
-
     },
     
 }

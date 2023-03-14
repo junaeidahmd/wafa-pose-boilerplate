@@ -13,6 +13,7 @@ app.component('tsidebar',Sidebar)
 app.component('theader',Header)
 
 
+
 app.use(router);
 
 app.mount('#tapp')

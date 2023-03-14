@@ -14,19 +14,17 @@ const routes = [
     {
         path: '/role',
         name: 'role',
-        component: () => import(/* webpackChunkName: "Role" */ '../components/Role.vue')
+        component: () => import(/* webpackChunkName: "Role" */ '../components/Role.vue'),
     },
+    {
+        path: '/addRole',
+        name:'addRole',
+        component: () => import(/* webpackChunkName: "addRole" */ '../components/addRole.vue'),
+     },
     {
         path: '/sales',
         name: 'sales',
         component: () => import(/* webpackChunkName: "Sales" */ '../components/Sales.vue'),
-        children:[
-            {
-            path: '/addRole',
-            name: 'addRole',
-            component: () => import(/* webpackChunkName: "addRole" */ '../components/addRole.vue')
-            }
-        ]
     },
 ]
 

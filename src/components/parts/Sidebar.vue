@@ -20,9 +20,8 @@
             <div class="items__left">
                 <ul class="list-unstyled">
                 <li
-                    class="option-active d-flex align-items-center justify-content-center"
-                >
-                    <router-link :to="{name:'index',query:{sort:'indesadfegrgx'}}" active-class="active"
+                    class="option-active d-flex align-items-center justify-content-center">
+                    <router-link to="/" active-class="active"
                     class="text-decoration-none d-flex align-items-center justify-content-center"
                     href="index.html"
                     ><img src="../../../public/img/Home-active.svg" alt="" />

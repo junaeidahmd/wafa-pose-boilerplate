@@ -392,6 +392,12 @@
 
 <script>
 export default {
+    head: {
+      script: [
+        { type: 'text/javascript', src: '../../public/js/home.js', async: true, body: true}, // Insert in body
+        { type: 'text/javascript', src: '../../public/js/product.js', async: true, body: true}, // Insert in body
+      ],
+    },
     name:'User',
     mounted(){
         $(document).ready(function () {
